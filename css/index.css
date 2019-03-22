@@ -1,0 +1,1286 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+.head {
+  width: 100%;
+  background-color: #f5f5f5;
+  height: 45px;
+  border-bottom: 1px #eeeeee solid;
+  font-size: 12px; }
+  .head .headbox {
+    width: 1206px;
+    margin: 0 auto; }
+    .head .headbox .head-left {
+      float: left; }
+      .head .headbox .head-left ul {
+        float: left;
+        line-height: 45px; }
+        .head .headbox .head-left ul #landing {
+          color: #cc0000; }
+          .head .headbox .head-left ul #landing a {
+            padding-right: 13px;
+            border-right: 2px #eceae9 solid; }
+        .head .headbox .head-left ul #enroll {
+          padding-left: 13px;
+          float: left;
+          color: #888888; }
+        .head .headbox .head-left ul #enroll:hover {
+          color: #c9bb92;
+          transition: 1s; }
+        .head .headbox .head-left ul #yidenglu {
+          position: relative;
+          height: 50px;
+          float: left;
+          display: none;
+          transition: 1s; }
+          .head .headbox .head-left ul #yidenglu .du {
+            position: absolute;
+            left: 0;
+            z-index: 20;
+            top: 45px;
+            display: none;
+            background-color: #fff;
+            border: 1px #bbb solid; }
+            .head .headbox .head-left ul #yidenglu .du ul li {
+              float: left;
+              text-align: center;
+              padding-left: 5px;
+              transition: 1s; }
+        .head .headbox .head-left ul #yidenglu:hover {
+          color: #c9bb92; }
+        .head .headbox .head-left ul #yidenglu:hover .du {
+          display: block; }
+        .head .headbox .head-left ul li {
+          float: left;
+          cursor: pointer; }
+    .head .headbox .head-right {
+      float: right;
+      line-height: 45px; }
+      .head .headbox .head-right ul {
+        float: left; }
+        .head .headbox .head-right ul li {
+          float: left;
+          color: #888888;
+          cursor: pointer;
+          position: relative; }
+          .head .headbox .head-right ul li a {
+            border-right: 2px #eceae9 solid;
+            padding-left: 13px;
+            padding-right: 13px;
+            text-align: center; }
+        .head .headbox .head-right ul .usercenter:hover .usercenternav {
+          display: block; }
+        .head .headbox .head-right ul .usercenternav {
+          position: absolute;
+          bottom: -150px;
+          height: 150px;
+          display: none;
+          background-color: #fff;
+          border: 1px #bbb solid; }
+          .head .headbox .head-right ul .usercenternav li {
+            width: 90px;
+            line-height: 30px;
+            text-align: center;
+            cursor: pointer; }
+          .head .headbox .head-right ul .usercenternav li:hover {
+            color: #c9bb92;
+            transition: 1s; }
+        .head .headbox .head-right ul .siteMap .siteMap1 {
+          display: none;
+          width: 1000px;
+          height: 345px;
+          background-color: #fff;
+          position: absolute;
+          right: 0px;
+          top: 47px;
+          border: 1px #bbb solid;
+          z-index: 1; }
+          .head .headbox .head-right ul .siteMap .siteMap1 ul {
+            float: left;
+            margin-top: 18px; }
+          .head .headbox .head-right ul .siteMap .siteMap1 .wenwan,
+          .head .headbox .head-right ul .siteMap .siteMap1 .helpcenter,
+          .head .headbox .head-right ul .siteMap .siteMap1 .fuwu,
+          .head .headbox .head-right ul .siteMap .siteMap1 .userzhinan,
+          .head .headbox .head-right ul .siteMap .siteMap1 .guanyuwe,
+          .head .headbox .head-right ul .siteMap .siteMap1 .guanzhuwe,
+          .head .headbox .head-right ul .siteMap .siteMap1 .kefucenter {
+            width: 80px;
+            height: 150px;
+            border-right: 1px #c8c9bd solid; }
+            .head .headbox .head-right ul .siteMap .siteMap1 .wenwan li,
+            .head .headbox .head-right ul .siteMap .siteMap1 .helpcenter li,
+            .head .headbox .head-right ul .siteMap .siteMap1 .fuwu li,
+            .head .headbox .head-right ul .siteMap .siteMap1 .userzhinan li,
+            .head .headbox .head-right ul .siteMap .siteMap1 .guanyuwe li,
+            .head .headbox .head-right ul .siteMap .siteMap1 .guanzhuwe li,
+            .head .headbox .head-right ul .siteMap .siteMap1 .kefucenter li {
+              line-height: 30px;
+              cursor: pointer; }
+              .head .headbox .head-right ul .siteMap .siteMap1 .wenwan li a,
+              .head .headbox .head-right ul .siteMap .siteMap1 .helpcenter li a,
+              .head .headbox .head-right ul .siteMap .siteMap1 .fuwu li a,
+              .head .headbox .head-right ul .siteMap .siteMap1 .userzhinan li a,
+              .head .headbox .head-right ul .siteMap .siteMap1 .guanyuwe li a,
+              .head .headbox .head-right ul .siteMap .siteMap1 .guanzhuwe li a,
+              .head .headbox .head-right ul .siteMap .siteMap1 .kefucenter li a {
+                border: 0; }
+            .head .headbox .head-right ul .siteMap .siteMap1 .wenwan .title,
+            .head .headbox .head-right ul .siteMap .siteMap1 .helpcenter .title,
+            .head .headbox .head-right ul .siteMap .siteMap1 .fuwu .title,
+            .head .headbox .head-right ul .siteMap .siteMap1 .userzhinan .title,
+            .head .headbox .head-right ul .siteMap .siteMap1 .guanyuwe .title,
+            .head .headbox .head-right ul .siteMap .siteMap1 .guanzhuwe .title,
+            .head .headbox .head-right ul .siteMap .siteMap1 .kefucenter .title {
+              font-size: 13px;
+              color: #b9a980; }
+          .head .headbox .head-right ul .siteMap .siteMap1 .Material {
+            width: 270px; }
+            .head .headbox .head-right ul .siteMap .siteMap1 .Material p {
+              width: 310px;
+              line-height: 30px;
+              padding-left: 10px;
+              font-size: 13px;
+              color: #b9a980; }
+            .head .headbox .head-right ul .siteMap .siteMap1 .Material li {
+              float: left;
+              line-height: 30px;
+              cursor: pointer; }
+              .head .headbox .head-right ul .siteMap .siteMap1 .Material li a {
+                width: 90px;
+                display: inline-block;
+                text-align: center;
+                border: 0;
+                padding-left: 0;
+                padding-right: 0; }
+          .head .headbox .head-right ul .siteMap .siteMap1 .zhuanqu {
+            width: 150px;
+            border-left: 1px #c8c9bd solid; }
+            .head .headbox .head-right ul .siteMap .siteMap1 .zhuanqu p {
+              width: 160px;
+              padding-left: 10px;
+              font-size: 13px;
+              color: #b9a980;
+              line-height: 30px; }
+            .head .headbox .head-right ul .siteMap .siteMap1 .zhuanqu li {
+              float: left;
+              line-height: 30px;
+              cursor: pointer; }
+              .head .headbox .head-right ul .siteMap .siteMap1 .zhuanqu li a {
+                border: 0; }
+        .head .headbox .head-right ul .siteMap:hover .siteMap1 {
+          display: block; }
+        .head .headbox .head-right ul li:hover {
+          color: #c9bb92;
+          transition: 1s; }
+
+.top {
+  width: 100%; }
+  .top .topbox {
+    width: 1206px;
+    margin: 0 auto;
+    height: 80px; }
+    .top .topbox h1 {
+      float: left;
+      width: 180px;
+      height: 44px; }
+      .top .topbox h1 img {
+        width: 100%;
+        height: 100%;
+        margin-top: 18px; }
+    .top .topbox .topright {
+      float: right;
+      overflow: hidden; }
+      .top .topbox .topright .topright1 {
+        float: left;
+        width: 279px;
+        height: 33px;
+        border: 1px #8c4f19 solid;
+        border-radius: 5px;
+        margin-top: 25px; }
+        .top .topbox .topright .topright1 #topinp {
+          border: 0;
+          width: 222px;
+          height: 28px;
+          margin-top: 3px;
+          padding-left: 10px; }
+        .top .topbox .topright .topright1 i {
+          display: block;
+          float: right;
+          text-align: center;
+          width: 40px;
+          height: 33px;
+          font-size: 30px;
+          color: #b9a980;
+          border-left: 2px solid #e1e1e1;
+          cursor: pointer; }
+      .top .topbox .topright .gwc {
+        width: 140px;
+        height: 35px;
+        background-color: #b31c23;
+        border-radius: 3px;
+        float: left;
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right: 2px; }
+        .top .topbox .topright .gwc p {
+          line-height: 35px;
+          text-align: center;
+          color: #fff;
+          cursor: pointer; }
+          .top .topbox .topright .gwc p i {
+            margin-right: 5px;
+            font-size: 20px; }
+
+.nav {
+  width: 100%;
+  height: 42px;
+  background-color: #b31c23; }
+  .nav .navbox {
+    width: 1206px;
+    margin: 0 auto; }
+    .nav .navbox ul {
+      border: 1px solid #b92c32;
+      border-left: 0;
+      height: 40px; }
+      .nav .navbox ul li {
+        float: left;
+        color: #fff;
+        cursor: pointer;
+        line-height: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-left: 1px solid #a31a21;
+        transition: 1s; }
+      .nav .navbox ul li.selected {
+        background-color: #cb121b; }
+      .nav .navbox ul li:hover {
+        background-color: #cb121b; }
+
+.lunbo {
+  width: 100%;
+  position: relative;
+  height: 556px; }
+  .lunbo .lunbotu {
+    width: 100%;
+    height: 556px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden; }
+    .lunbo .lunbotu li {
+      width: 100%;
+      height: 556px;
+      float: left;
+      display: none;
+      cursor: pointer; }
+      .lunbo .lunbotu li img {
+        width: 100%;
+        height: 100%; }
+    .lunbo .lunbotu li.none {
+      display: block; }
+  .lunbo p {
+    display: none;
+    position: absolute;
+    width: 30px;
+    height: 110px;
+    top: 40%; }
+    .lunbo p img {
+      width: 100%;
+      height: 100%; }
+  .lunbo .lunbonav {
+    position: absolute;
+    left: 50%;
+    bottom: 20px; }
+    .lunbo .lunbonav li {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      float: left;
+      margin-left: 20px;
+      border: 1px #ad9694 solid;
+      cursor: pointer; }
+    .lunbo .lunbonav li.lunboselect {
+      background-color: #c19658; }
+  .lunbo .lunboprev {
+    left: 200px; }
+  .lunbo .lunbonext {
+    right: 200px; }
+
+.guangaotu {
+  width: 100%;
+  height: 251px; }
+  .guangaotu .guangaotu1 {
+    width: 1206px;
+    margin: 0 auto;
+    height: 251px;
+    margin-top: 4px;
+    margin-bottom: 4px; }
+    .guangaotu .guangaotu1 li {
+      width: 396px;
+      height: 234px;
+      float: left;
+      border-radius: 4px;
+      margin-right: 6px;
+      cursor: pointer; }
+      .guangaotu .guangaotu1 li img {
+        width: 100%;
+        height: 100%;
+        border-radius: 4px; }
+      .guangaotu .guangaotu1 li .guangaotu1fl {
+        margin-right: 0px; }
+
+.jingdianhot1 {
+  width: 100%;
+  height: 805px; }
+  .jingdianhot1 .jingdianhot {
+    width: 1206px;
+    height: 805px;
+    margin: 0 auto; }
+    .jingdianhot1 .jingdianhot .jingdianh3 {
+      width: 1206px;
+      border-bottom: 1px solid #e1e1e1;
+      height: 48px;
+      margin-top: 10px; }
+      .jingdianhot1 .jingdianhot .jingdianh3 h3 {
+        font-size: 25px;
+        float: left;
+        font-weight: normal;
+        color: #000;
+        line-height: 48px; }
+      .jingdianhot1 .jingdianhot .jingdianh3 .gengduo {
+        display: block;
+        float: right;
+        color: #beae85;
+        line-height: 40px;
+        margin-right: 5px;
+        cursor: pointer; }
+    .jingdianhot1 .jingdianhot .hotimg {
+      width: 1206px;
+      height: 474px;
+      margin-top: 10px; }
+      .jingdianhot1 .jingdianhot .hotimg .hottop a {
+        display: block;
+        float: left;
+        overflow: hidden; }
+      .jingdianhot1 .jingdianhot .hotimg .hottop .hot1 {
+        width: 789px;
+        height: 474px;
+        border: 1px #e1e1e1 solid;
+        border-radius: 4px; }
+        .jingdianhot1 .jingdianhot .hotimg .hottop .hot1 img {
+          width: 100%;
+          height: 100%; }
+      .jingdianhot1 .jingdianhot .hotimg .hottop .hot5 {
+        border: 1px #e1e1e1 solid;
+        border-radius: 4px;
+        width: 394px;
+        height: 231px;
+        margin-left: 10px; }
+        .jingdianhot1 .jingdianhot .hotimg .hottop .hot5 img {
+          width: 100%;
+          height: 100%; }
+      .jingdianhot1 .jingdianhot .hotimg .hottop .hot2 {
+        width: 394px;
+        height: 231px;
+        border: 1px #e1e1e1 solid;
+        border-radius: 4px;
+        margin-left: 10px;
+        margin-top: 10px; }
+      .jingdianhot1 .jingdianhot .hotimg .hotbottom {
+        width: 1206px;
+        height: 234px; }
+        .jingdianhot1 .jingdianhot .hotimg .hotbottom a {
+          margin-top: 10px;
+          display: inline-block;
+          width: 391px;
+          height: 231px;
+          border-radius: 4px;
+          border: 1px #e1e1e1 solid; }
+          .jingdianhot1 .jingdianhot .hotimg .hotbottom a img {
+            width: 100%;
+            height: 100%; }
+        .jingdianhot1 .jingdianhot .hotimg .hotbottom .hot3 {
+          margin-left: 6px;
+          width: 385px; }
+        .jingdianhot1 .jingdianhot .hotimg .hotbottom .hot4 {
+          margin-left: 6px;
+          width: 393px; }
+
+.xinpinbox {
+  width: 100%;
+  height: 550px; }
+  .xinpinbox .xinpin {
+    width: 1206px;
+    height: 550px;
+    margin: 0 auto; }
+    .xinpinbox .xinpin .xinpinh3 {
+      width: 1206px;
+      border-bottom: 1px solid #e1e1e1;
+      height: 48px;
+      margin-top: 10px; }
+      .xinpinbox .xinpin .xinpinh3 h3 {
+        font-size: 25px;
+        float: left;
+        font-weight: normal;
+        color: #000;
+        line-height: 48px; }
+      .xinpinbox .xinpin .xinpinh3 .gengduo1 {
+        display: block;
+        float: right;
+        color: #beae85;
+        line-height: 40px;
+        margin-right: 5px;
+        cursor: pointer; }
+    .xinpinbox .xinpin .xinpincenter {
+      width: 1206px;
+      height: 475px;
+      margin-top: 10px; }
+      .xinpinbox .xinpin .xinpincenter a {
+        display: block;
+        float: left;
+        border-radius: 4px;
+        border: 1px #e1e1e1 solid; }
+      .xinpinbox .xinpin .xinpincenter .xinpin1 {
+        width: 798px;
+        height: 474px; }
+        .xinpinbox .xinpin .xinpincenter .xinpin1 img {
+          width: 100%;
+          height: 100%; }
+      .xinpinbox .xinpin .xinpincenter .xinpin2,
+      .xinpinbox .xinpin .xinpincenter .xinpin3 {
+        width: 393px;
+        height: 231px;
+        margin-left: 10px; }
+        .xinpinbox .xinpin .xinpincenter .xinpin2 img,
+        .xinpinbox .xinpin .xinpincenter .xinpin3 img {
+          width: 100%;
+          height: 100%; }
+      .xinpinbox .xinpin .xinpincenter .xinpin3 {
+        margin-top: 10px; }
+
+.renqibox {
+  width: 100%;
+  height: 550px; }
+  .renqibox .renqi {
+    width: 1206px;
+    margin: 0 auto;
+    height: 550px;
+    overflow: hidden; }
+    .renqibox .renqi .renqih3 {
+      width: 1206px;
+      border-bottom: 1px solid #e1e1e1;
+      height: 48px;
+      margin-top: 10px; }
+      .renqibox .renqi .renqih3 h3 {
+        font-size: 25px;
+        float: left;
+        font-weight: normal;
+        color: #000;
+        line-height: 48px; }
+      .renqibox .renqi .renqih3 .gengduo2 {
+        display: block;
+        float: right;
+        color: #beae85;
+        line-height: 40px;
+        margin-right: 5px;
+        cursor: pointer; }
+    .renqibox .renqi .renqicenter {
+      width: 798px;
+      margin-top: 10px;
+      float: left; }
+      .renqibox .renqi .renqicenter a {
+        display: block;
+        float: left;
+        border-radius: 4px;
+        border: 1px #e1e1e1 solid; }
+      .renqibox .renqi .renqicenter .renqi1 {
+        width: 393px;
+        height: 475px;
+        margin-right: 10px; }
+        .renqibox .renqi .renqicenter .renqi1 img {
+          width: 100%;
+          height: 100%; }
+      .renqibox .renqi .renqicenter .renqi2.renqi3 {
+        width: 393px;
+        height: 231px; }
+        .renqibox .renqi .renqicenter .renqi2.renqi3 img {
+          width: 100%;
+          height: 100%; }
+      .renqibox .renqi .renqicenter .renqi3 {
+        margin-top: 10px; }
+    .renqibox .renqi .renqiright {
+      width: 393px;
+      float: right; }
+      .renqibox .renqi .renqiright a {
+        display: inline-block;
+        width: 391px;
+        height: 109px;
+        border-radius: 4px;
+        border: 1px #e1e1e1 solid; }
+        .renqibox .renqi .renqiright a img {
+          width: 100%;
+          height: 100%; }
+      .renqibox .renqi .renqiright .renqi4,
+      .renqibox .renqi .renqiright .renqi5,
+      .renqibox .renqi .renqiright .renqi6,
+      .renqibox .renqi .renqiright .renqi7 {
+        margin-top: 10px; }
+
+.pinpaibox {
+  width: 100%;
+  height: 1251px; }
+  .pinpaibox .pinpai {
+    width: 1206px;
+    margin: 0 auto; }
+    .pinpaibox .pinpai .pinpaih3 {
+      width: 1206px;
+      border-bottom: 1px solid #e1e1e1;
+      height: 48px;
+      margin-top: 10px; }
+      .pinpaibox .pinpai .pinpaih3 h3 {
+        font-size: 25px;
+        float: left;
+        font-weight: normal;
+        color: #000;
+        line-height: 48px; }
+      .pinpaibox .pinpai .pinpaih3 .gengduo3 {
+        display: block;
+        float: right;
+        color: #beae85;
+        line-height: 40px;
+        margin-right: 5px;
+        cursor: pointer; }
+    .pinpaibox .pinpai .pinpaicontent {
+      width: 1206px;
+      height: 1191px; }
+      .pinpaibox .pinpai .pinpaicontent a {
+        display: inline-block;
+        width: 393px;
+        height: 230px;
+        border-radius: 4px;
+        border: 1px #e1e1e1 solid;
+        margin-top: 10px;
+        margin-right: 2px;
+        margin-left: 1px; }
+        .pinpaibox .pinpai .pinpaicontent a img {
+          width: 100%;
+          height: 100%; }
+      .pinpaibox .pinpai .pinpaicontent .pinpaituijian3,
+      .pinpaibox .pinpai .pinpaicontent .pinpaituijian6,
+      .pinpaibox .pinpai .pinpaicontent .pinpaituijian9,
+      .pinpaibox .pinpai .pinpaicontent .pinpaituijian12 {
+        margin-right: 0px; }
+      .pinpaibox .pinpai .pinpaicontent .pinpaituijian13 {
+        width: 1202px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 227px;
+        display: block; }
+        .pinpaibox .pinpai .pinpaicontent .pinpaituijian13 img {
+          width: 100%;
+          height: 100%; }
+
+.footbox {
+  width: 100%;
+  margin-top: 18px;
+  height: 234px; }
+  .footbox .foot {
+    width: 1206px;
+    margin: 0 auto; }
+    .footbox .foot .peisong {
+      width: 978px;
+      height: 68px;
+      border-radius: 4px;
+      margin-left: 2px;
+      border: 1px #e1e1e1 solid;
+      float: left; }
+      .footbox .foot .peisong span {
+        line-height: 68px;
+        display: inline-block;
+        padding-left: 58px;
+        padding-right: 58px;
+        font-size: 31px;
+        color: #595757;
+        cursor: pointer; }
+    .footbox .foot .footnav {
+      width: 976px;
+      height: 155px;
+      margin-top: 10px;
+      border-radius: 4px;
+      margin-left: 2px;
+      border: 1px #e1e1e1 solid;
+      float: left; }
+      .footbox .foot .footnav ul {
+        float: left;
+        width: 131px;
+        text-align: center;
+        margin-top: 9px; }
+        .footbox .foot .footnav ul li {
+          line-height: 32px;
+          color: #898989;
+          font-size: 12px; }
+        .footbox .foot .footnav ul li:hover {
+          color: #b31c22;
+          transition: 1s; }
+        .footbox .foot .footnav ul .title1 {
+          line-height: 38px;
+          color: #595757;
+          font-weight: bold;
+          font-size: 14px; }
+    .footbox .foot .footright {
+      float: right;
+      width: 210px;
+      height: 232px;
+      border-radius: 4px;
+      border: 1px #e1e1e1 solid; }
+      .footbox .foot .footright h3 {
+        font-size: 32px;
+        line-height: 55px;
+        text-align: center;
+        font-weight: normal;
+        margin-top: 28px;
+        color: #666666; }
+      .footbox .foot .footright p {
+        text-align: center;
+        color: #888888; }
+      .footbox .foot .footright ul {
+        margin-top: 30px; }
+        .footbox .foot .footright ul li {
+          float: left;
+          width: 60px;
+          height: 70px;
+          margin-left: 10px;
+          line-height: 25px; }
+          .footbox .foot .footright ul li img {
+            width: 47px;
+            height: 45px;
+            transition: 1s; }
+          .footbox .foot .footright ul li img:hover {
+            transform: rotate(360deg); }
+          .footbox .foot .footright ul li span {
+            display: inline-block;
+            color: #888888;
+            line-height: 30px; }
+          .footbox .foot .footright ul li span:hover {
+            color: #b31c22;
+            transition: 1s; }
+
+.footinfobox {
+  width: 100%;
+  margin-bottom: 50px; }
+  .footinfobox .footinfo {
+    width: 1206px;
+    margin: 0 auto; }
+    .footinfobox .footinfo ul {
+      width: 753px;
+      height: 28px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 16px; }
+      .footinfobox .footinfo ul li {
+        float: left;
+        font-size: 11px;
+        transition: 1s;
+        color: #676d77; }
+        .footinfobox .footinfo ul li a {
+          padding-left: 10px;
+          padding-right: 10px;
+          border-left: 1px solid #dad7e4; }
+      .footinfobox .footinfo ul li:hover {
+        color: #b31c22; }
+      .footinfobox .footinfo ul .footinfo1 {
+        border: 0; }
+    .footinfobox .footinfo p {
+      text-align: center;
+      color: #676d77;
+      font-size: 11px;
+      line-height: 27px; }
+
+.recommendbox {
+  width: 100%;
+  height: 442px; }
+  .recommendbox .recommend {
+    width: 1206px;
+    margin: 0 auto;
+    height: 442px; }
+    .recommendbox .recommend .recommendtop {
+      width: 1206px;
+      height: 86px; }
+      .recommendbox .recommend .recommendtop .recommendleft {
+        float: left;
+        border-top: 1px solid #dcdddd;
+        width: 522px;
+        margin-top: 45px; }
+      .recommendbox .recommend .recommendtop .recommendtopright {
+        float: right;
+        border-top: 1px solid #dcdddd;
+        width: 522px;
+        margin-top: 45px; }
+      .recommendbox .recommend .recommendtop .recommendtopcenter {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 86px;
+        width: 156px;
+        display: inline-block;
+        font-size: 24px;
+        color: #595757; }
+    .recommendbox .recommend .recommendlunbo {
+      width: 1206px;
+      height: 320px;
+      position: relative;
+      overflow: hidden; }
+      .recommendbox .recommend .recommendlunbo .recommendUL {
+        width: 4848px;
+        height: 302px;
+        position: absolute;
+        left: 0;
+        top: 0; }
+        .recommendbox .recommend .recommendlunbo .recommendUL li {
+          float: left;
+          border: 1px solid #e8e8e8;
+          border-radius: 9px;
+          height: 300px;
+          width: 390px;
+          margin-left: 6px;
+          margin-right: 6px;
+          transition: 1s; }
+          .recommendbox .recommend .recommendlunbo .recommendUL li a {
+            height: 300px;
+            width: 390px;
+            text-align: center; }
+            .recommendbox .recommend .recommendlunbo .recommendUL li a img {
+              width: 380px;
+              height: 190px; }
+          .recommendbox .recommend .recommendlunbo .recommendUL li .recommendp1 {
+            line-height: 22px;
+            text-align: center;
+            color: #595757;
+            font-size: 16px;
+            margin-top: 20px; }
+          .recommendbox .recommend .recommendlunbo .recommendUL li .recommendp2 {
+            line-height: 22px;
+            font-size: 14px;
+            text-align: center; }
+            .recommendbox .recommend .recommendlunbo .recommendUL li .recommendp2 span {
+              color: #ff2a00; }
+            .recommendbox .recommend .recommendlunbo .recommendUL li .recommendp2 .recommendspan2 {
+              text-decoration: line-through;
+              color: #9fa0a0;
+              margin-left: 5px; }
+      .recommendbox .recommend .recommendlunbo .recommendnav {
+        position: absolute;
+        left: 45%;
+        bottom: 0; }
+        .recommendbox .recommend .recommendlunbo .recommendnav li {
+          float: left;
+          height: 8px;
+          width: 8px;
+          border-radius: 50%;
+          background-color: #898989;
+          margin-left: 15px; }
+        .recommendbox .recommend .recommendlunbo .recommendnav li.select {
+          border-radius: 50%;
+          width: 7px;
+          height: 7px;
+          border: 1px #d4242c solid;
+          background-color: transparent; }
+
+.login {
+  position: fixed;
+  background-color: #7978789e;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: none; }
+  .login .loginbox {
+    width: 460px;
+    height: 515px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+    box-shadow: 0 5px 5px 0 #5c5b5b3e;
+    position: relative; }
+    .login .loginbox .x {
+      display: block;
+      float: right;
+      width: 18px;
+      height: 18px;
+      color: #c9caca;
+      margin-top: 25px;
+      margin-right: 22px;
+      font-size: 30px;
+      cursor: pointer; }
+    .login .loginbox h2 {
+      padding-top: 49px;
+      line-height: 56px;
+      text-align: center;
+      font-size: 33px;
+      color: #595757; }
+    .login .loginbox p {
+      line-height: 44px;
+      text-align: center;
+      color: #9fa0a0;
+      font-size: 19px; }
+      .login .loginbox p span {
+        color: #f29a76; }
+    .login .loginbox input {
+      border: 1px solid #c9caca;
+      border-radius: 7px;
+      background-color: #fbfbfa;
+      height: 50px;
+      line-height: 50px;
+      width: 330px;
+      margin-left: 60px;
+      padding-left: 10px; }
+    .login .loginbox input:placeholder {
+      color: #ababab;
+      font-size: 16px; }
+    .login .loginbox #userId {
+      margin-top: 23px;
+      margin-bottom: 10px; }
+    .login .loginbox .wrongBox {
+      position: absolute;
+      color: #fff;
+      font-size: 12px;
+      display: none;
+      top: 189px;
+      right: 72px;
+      background: #d1101a;
+      border-radius: 4px;
+      text-align: center;
+      padding-right: 6px;
+      padding-left: 6px;
+      padding-top: 3px;
+      padding-bottom: 3px; }
+    .login .loginbox .wrongBox1 {
+      position: absolute;
+      color: #fff;
+      display: none;
+      font-size: 12px;
+      top: 249px;
+      right: 72px;
+      background: #d1101a;
+      border-radius: 4px;
+      text-align: center;
+      padding-right: 6px;
+      padding-left: 6px;
+      padding-top: 3px;
+      padding-bottom: 3px; }
+    .login .loginbox .errorTips {
+      position: fixed;
+      display: none;
+      opacity: 1;
+      width: 344px;
+      right: -286px;
+      bottom: 295px;
+      font-size: 14px;
+      line-height: 46px; }
+      .login .loginbox .errorTips .errorLeft {
+        float: left; }
+        .login .loginbox .errorTips .errorLeft img {
+          width: 20px;
+          height: 46px; }
+      .login .loginbox .errorTips .errorCnt {
+        float: left;
+        color: #898989;
+        font-size: 14px;
+        height: 44px;
+        line-height: 46px;
+        background-color: #fff;
+        border-top: 1px solid #ababab;
+        border-bottom: 1px solid #ababab; }
+      .login .loginbox .errorTips .errorRight {
+        float: left; }
+    .login .loginbox .errorTips1 {
+      position: fixed;
+      display: none;
+      opacity: 1;
+      width: 344px;
+      right: -286px;
+      bottom: 232px;
+      font-size: 14px;
+      line-height: 46px; }
+      .login .loginbox .errorTips1 .errorLeft {
+        float: left; }
+        .login .loginbox .errorTips1 .errorLeft img {
+          width: 20px;
+          height: 46px; }
+      .login .loginbox .errorTips1 .errorCnt {
+        float: left;
+        color: #898989;
+        font-size: 14px;
+        height: 44px;
+        line-height: 46px;
+        background-color: #fff;
+        border-top: 1px solid #ababab;
+        border-bottom: 1px solid #ababab; }
+      .login .loginbox .errorTips1 .errorRight {
+        float: left; }
+    .login .loginbox #jizhu {
+      font-size: 12px;
+      color: #898989;
+      line-height: 30px; }
+    .login .loginbox #jizhuinp {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      margin-top: 20px; }
+    .login .loginbox .wjpwd {
+      display: block;
+      float: right;
+      width: 68px;
+      line-height: 42px;
+      color: #898989;
+      font-size: 12px;
+      margin-right: 59px; }
+      .login .loginbox .wjpwd i {
+        font-size: 12px; }
+    .login .loginbox #lijilogin {
+      width: 339px;
+      height: 53px;
+      line-height: 53px;
+      background-color: #cb111b;
+      border: 1px solid #ff1d25;
+      margin-left: 60px;
+      border-radius: 7px;
+      font-size: 19px;
+      color: #fff;
+      margin-top: 18px;
+      margin-bottom: 30px; }
+    .login .loginbox .tipxx {
+      color: #d1101a;
+      font-size: 20px; }
+    .login .loginbox .zhucheuser {
+      border-top: 1px solid #e6e6df;
+      width: 340px;
+      margin-top: 30px;
+      margin: 0 auto;
+      color: #d80c18;
+      font-size: 12px;
+      cursor: pointer; }
+      .login .loginbox .zhucheuser i {
+        color: #d80c18; }
+
+.login1 {
+  position: fixed;
+  background-color: #7978789e;
+  display: none;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0; }
+  .login1 .loginbox1 {
+    width: 460px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+    box-shadow: 0 5px 5px 0 #5c5b5b3e;
+    position: relative; }
+    .login1 .loginbox1 .x {
+      display: block;
+      float: right;
+      width: 18px;
+      height: 18px;
+      color: #c9caca;
+      margin-top: 25px;
+      margin-right: 22px;
+      font-size: 30px;
+      cursor: pointer; }
+    .login1 .loginbox1 h2 {
+      padding-top: 49px;
+      line-height: 56px;
+      text-align: center;
+      font-size: 33px;
+      color: #595757; }
+    .login1 .loginbox1 p {
+      line-height: 44px;
+      text-align: center;
+      color: #9fa0a0;
+      font-size: 19px; }
+      .login1 .loginbox1 p span {
+        color: #f29a76; }
+    .login1 .loginbox1 input {
+      border: 1px solid #c9caca;
+      border-radius: 7px;
+      background-color: #fbfbfa;
+      height: 50px;
+      line-height: 50px;
+      margin-left: 60px;
+      padding-left: 10px; }
+    .login1 .loginbox1 input:placeholder {
+      color: #ababab;
+      font-size: 16px; }
+    .login1 .loginbox1 #userpwd2 {
+      margin-top: 10px; }
+    .login1 .loginbox1 .us {
+      position: relative; }
+      .login1 .loginbox1 .us input {
+        width: 330px; }
+      .login1 .loginbox1 .us #userId {
+        margin-top: 23px;
+        margin-bottom: 10px; }
+      .login1 .loginbox1 .us .wrongBoxz {
+        position: absolute;
+        color: #fff;
+        font-size: 12px;
+        display: none;
+        top: 16px;
+        right: 64px;
+        background: #d1101a;
+        border-radius: 4px;
+        text-align: center;
+        padding-right: 6px;
+        padding-left: 6px;
+        padding-top: 3px;
+        padding-bottom: 3px; }
+      .login1 .loginbox1 .us .errorTipsz {
+        position: absolute;
+        display: none;
+        opacity: 1;
+        width: 344px;
+        right: -284px;
+        top: 2px;
+        font-size: 14px;
+        line-height: 46px; }
+        .login1 .loginbox1 .us .errorTipsz .errorLeftz {
+          float: left; }
+          .login1 .loginbox1 .us .errorTipsz .errorLeftz img {
+            width: 20px;
+            height: 46px; }
+        .login1 .loginbox1 .us .errorTipsz .errorCntz {
+          float: left;
+          color: #898989;
+          font-size: 14px;
+          height: 44px;
+          line-height: 46px;
+          background-color: #fff;
+          border-top: 1px solid #ababab;
+          border-bottom: 1px solid #ababab; }
+        .login1 .loginbox1 .us .errorTipsz .errorRightz {
+          float: left; }
+    .login1 .loginbox1 .pw1 {
+      position: relative;
+      margin-top: 10px; }
+      .login1 .loginbox1 .pw1 input {
+        width: 330px; }
+      .login1 .loginbox1 .pw1 .wrongBox1p {
+        position: absolute;
+        color: #fff;
+        display: none;
+        font-size: 12px;
+        top: 15px;
+        right: 65px;
+        background: #d1101a;
+        border-radius: 4px;
+        text-align: center;
+        padding-right: 6px;
+        padding-left: 6px;
+        padding-top: 3px;
+        padding-bottom: 3px; }
+      .login1 .loginbox1 .pw1 .errorTips1p {
+        position: absolute;
+        display: none;
+        opacity: 1;
+        width: 344px;
+        right: -286px;
+        bottom: 3px;
+        font-size: 14px;
+        line-height: 46px; }
+        .login1 .loginbox1 .pw1 .errorTips1p .errorLeftp {
+          float: left; }
+          .login1 .loginbox1 .pw1 .errorTips1p .errorLeftp img {
+            width: 20px;
+            height: 46px; }
+        .login1 .loginbox1 .pw1 .errorTips1p .errorCntp {
+          float: left;
+          color: #898989;
+          font-size: 14px;
+          height: 44px;
+          line-height: 46px;
+          background-color: #fff;
+          border-top: 1px solid #ababab;
+          border-bottom: 1px solid #ababab; }
+        .login1 .loginbox1 .pw1 .errorTips1p .errorRightp {
+          float: left; }
+    .login1 .loginbox1 .pw2 {
+      position: relative; }
+      .login1 .loginbox1 .pw2 input {
+        width: 330px; }
+      .login1 .loginbox1 .pw2 .wrongBox2 {
+        position: absolute;
+        color: #fff;
+        display: none;
+        font-size: 12px;
+        top: 25px;
+        right: 65px;
+        background: #d1101a;
+        border-radius: 4px;
+        text-align: center;
+        padding-right: 6px;
+        padding-left: 6px;
+        padding-top: 3px;
+        padding-bottom: 3px; }
+      .login1 .loginbox1 .pw2 .errorTips2 {
+        position: absolute;
+        display: none;
+        opacity: 1;
+        width: 344px;
+        right: -286px;
+        top: 13px;
+        font-size: 14px;
+        line-height: 46px; }
+        .login1 .loginbox1 .pw2 .errorTips2 .errorLeft2 {
+          float: left; }
+          .login1 .loginbox1 .pw2 .errorTips2 .errorLeft2 img {
+            width: 20px;
+            height: 46px; }
+        .login1 .loginbox1 .pw2 .errorTips2 .errorCnt2 {
+          float: left;
+          color: #898989;
+          font-size: 14px;
+          height: 44px;
+          line-height: 46px;
+          background-color: #fff;
+          border-top: 1px solid #ababab;
+          border-bottom: 1px solid #ababab; }
+        .login1 .loginbox1 .pw2 .errorTips2 .errorRight2 {
+          float: left; }
+    .login1 .loginbox1 #yzm {
+      margin-top: 10px;
+      width: 402px;
+      position: relative; }
+      .login1 .loginbox1 #yzm #yzminp {
+        width: 205px;
+        height: 48px; }
+      .login1 .loginbox1 #yzm .wrongBox3 {
+        position: absolute;
+        color: #fff;
+        display: none;
+        font-size: 12px;
+        top: 14px;
+        right: 133px;
+        background: #d1101a;
+        border-radius: 4px;
+        text-align: center;
+        padding-right: 6px;
+        padding-left: 6px;
+        padding-top: 3px;
+        padding-bottom: 3px; }
+      .login1 .loginbox1 #yzm .yzmbox {
+        float: right;
+        width: 122px;
+        height: 50px;
+        position: relative; }
+        .login1 .loginbox1 #yzm .yzmbox .yzmbox1 {
+          width: 122px;
+          height: 50px;
+          top: 0;
+          left: 0;
+          z-index: -10;
+          position: absolute; }
+          .login1 .loginbox1 #yzm .yzmbox .yzmbox1 img {
+            width: 122px;
+            height: 50px; }
+        .login1 .loginbox1 #yzm .yzmbox .shuzbox {
+          width: 122px;
+          height: 50px;
+          user-select: none; }
+          .login1 .loginbox1 #yzm .yzmbox .shuzbox i {
+            display: inline-block;
+            line-height: 50px;
+            margin-left: 15px; }
+        .login1 .loginbox1 #yzm .yzmbox .errorTips3 {
+          position: absolute;
+          display: none;
+          opacity: 1;
+          width: 344px;
+          right: -342px;
+          top: 2px;
+          font-size: 14px;
+          line-height: 46px; }
+          .login1 .loginbox1 #yzm .yzmbox .errorTips3 .errorLeft {
+            float: left; }
+            .login1 .loginbox1 #yzm .yzmbox .errorTips3 .errorLeft img {
+              width: 20px;
+              height: 46px; }
+          .login1 .loginbox1 #yzm .yzmbox .errorTips3 .errorCnt {
+            float: left;
+            color: #898989;
+            font-size: 14px;
+            height: 44px;
+            line-height: 46px;
+            background-color: #fff;
+            border-top: 1px solid #ababab;
+            border-bottom: 1px solid #ababab; }
+          .login1 .loginbox1 #yzm .yzmbox .errorTips3 .errorRight {
+            float: left; }
+    .login1 .loginbox1 #jizhu {
+      font-size: 12px;
+      color: #898989;
+      line-height: 30px; }
+    .login1 .loginbox1 #jizhuinp {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      margin-top: 20px; }
+    .login1 .loginbox1 .wjpwd {
+      display: block;
+      float: right;
+      width: 68px;
+      line-height: 42px;
+      color: #898989;
+      font-size: 12px;
+      margin-right: 59px; }
+      .login1 .loginbox1 .wjpwd i {
+        font-size: 12px; }
+    .login1 .loginbox1 #lijilogin1 {
+      width: 339px;
+      height: 53px;
+      line-height: 53px;
+      background-color: #cb111b;
+      border: 1px solid #ff1d25;
+      margin-left: 60px;
+      border-radius: 7px;
+      font-size: 19px;
+      color: #fff;
+      margin-top: 18px;
+      margin-bottom: 30px; }
+    .login1 .loginbox1 .xieyi {
+      font-size: 12px;
+      cursor: pointer; }
+      .login1 .loginbox1 .xieyi a {
+        color: #000; }
+    .login1 .loginbox1 .tipxx {
+      color: #d1101a;
+      font-size: 20px; }
+    .login1 .loginbox1 .zhucheuser1 {
+      border-top: 1px solid #e6e6df;
+      width: 340px;
+      margin-top: 30px;
+      margin: 0 auto;
+      color: #898989;
+      font-size: 12px;
+      cursor: pointer; }
+      .login1 .loginbox1 .zhucheuser1 a {
+        background-color: #898989;
+        color: #fff;
+        padding: 3px;
+        border-radius: 5px; }
+
+/*# sourceMappingURL=index.css.map */

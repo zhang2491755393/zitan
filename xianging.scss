@@ -1,0 +1,330 @@
+$mixwidth: 100%;
+$boxwidth: 1206px;
+$color: #f4f3f2;
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.breadcrumbsparent {
+  width: $mixwidth;
+  line-height: 45px;
+  .container {
+    width: $boxwidth;
+    margin: 0 auto;
+    .containernav {
+      font-size: 12px;
+      overflow: hidden;
+      li {
+        float: left;
+        margin-left: 5px;
+        transition: 1s;
+        cursor: pointer;
+      }
+      .goodsn {
+        color: rgb(201, 169, 161);
+      }
+      li:hover {
+        color: rgb(201, 169, 161);
+      }
+    }
+    .fdjbox {
+      width: $mixwidth;
+      height: 696px;
+      border: 1px #f1f1f1 solid;
+      border-radius: 10px;
+      position: relative;
+      .dfjleft {
+        width: 840px;
+        height: 483px;
+        border-right: 1px #f1f1f1 solid;
+        border-bottom: 1px #f1f1f1 solid;
+        float: left;
+        .bimg {
+          width: 400px;
+          height: 400px;
+          margin: 0 auto;
+          position: relative;
+          border: 1px solid #807b59;
+          img {
+            width: 400px;
+            height: 400px;
+          }
+          .shadow {
+            display: none;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(167, 165, 165, 0.299);
+          }
+        }
+        .bigfdj {
+          display: none;
+          border: 1px solid #807b59;
+          position: absolute;
+          right: -36px;
+          top: 0;
+          z-index: 20;
+          width: 400px;
+          height: 400px;
+          overflow: hidden;
+          background-color: sandybrown;
+          #bigimg {
+            width: 800px;
+            height: 800px;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+        }
+        .tunav {
+          overflow: hidden;
+          li {
+            width: 208px;
+            height: 211px;
+            float: left;
+            border: 1px #f1f1f1 solid;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+      .googsinfo {
+        padding-left: 21px;
+        width: 338px;
+        // float: right;
+        overflow: hidden;
+        h1 {
+          font-weight: normal;
+          line-height: 49px;
+          font-size: 29px;
+          margin-top: 46px;
+        }
+        .miaos {
+          line-height: 30px;
+          font-size: 12px;
+          color: #998662;
+        }
+        .xian {
+          width: 300px;
+          display: block;
+          margin-top: 12px;
+          border-top: 1px #eeeeee solid;
+        }
+        .jiage1 {
+          line-height: 35px;
+          margin-top: 7px;
+          color: #807b59;
+          font-size: 12px;
+          position: relative;
+          .jiage {
+            color: #e40911;
+            font-size: 22px;
+          }
+          .tehui {
+            position: absolute;
+            right: 104px;
+            top: 0;
+            img {
+              width: 64px;
+              height: 18px;
+            }
+          }
+        }
+        .yuanjia1 {
+          line-height: 28px;
+          font-size: 12px;
+          color: #807b59;
+          text-decoration: line-through;
+        }
+        .xiaoliang1 {
+          line-height: 31px;
+          font-size: 12px;
+          color: #807b59;
+        }
+        .guigebox {
+          overflow: hidden;
+          .guigeleft {
+            display: block;
+            float: left;
+            height: 60px;
+            font-size: 12px;
+            color: #807b59;
+            padding-top: 22px;
+          }
+          .guigeUL {
+            float: right;
+            width: 286px;
+            li {
+              float: left;
+              width: 102px;
+              text-align: center;
+              border: 1px #888888 solid;
+              border-radius: 4px;
+              line-height: 24px;
+              margin-left: 8px;
+              margin-right: 8px;
+              margin-top: 11px;
+              transition: 0.4s;
+              color: #807b59;
+              cursor: pointer;
+            }
+            li:hover {
+              border: 1px rgb(255, 165, 0) solid;
+            }
+            li:checked {
+              border: 1px rgb(215, 71, 78) solid;
+            }
+          }
+        }
+        .shuliangbox {
+          width: 100%;
+          overflow: hidden;
+          .shuliang {
+            display: block;
+            float: left;
+            height: 60px;
+            font-size: 12px;
+            color: #807b59;
+            padding-top: 22px;
+          }
+          .reduce {
+            width: 32px;
+            height: 44px;
+            float: left;
+            text-align: center;
+            border: 1px solid #807b59;
+            border-radius: 3px;
+            margin-top: 21px;
+            font-size: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+          }
+          #num{
+            float: left;
+            border:1px solid #e1e1e1;
+            border-radius: 4px;
+            width: 76px;
+            height: 34px;
+            margin-top:26px;
+            margin-left: 10px;
+            text-align: center;
+          }
+          .add {
+            width: 32px;
+            height: 44px;
+            float: left;
+            text-align: center;
+            border: 1px solid #807b59;
+            border-radius: 3px;
+            margin-top: 21px;
+            font-size: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+          }
+        }
+        .tip{
+          text-align: center;
+          line-height: 40px;
+          color:red;
+          font-size: 20px;
+        }
+        .mmm {
+          width: 300px;
+          margin-top: 15px;
+
+          color: #fff;
+          .ljgm {
+            display: inline-block;
+            line-height: 37px;
+            width: 139px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #e40911;
+            margin-right: 10px;
+            cursor: pointer;
+          }
+          .jrgwc {
+            display: inline-block;
+            line-height: 37px;
+            width: 139px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #f19600;
+            cursor: pointer;
+          }
+        }
+        .other {
+          overflow: hidden;
+          li {
+            float: left;
+            width: 41px;
+            height: 52px;
+            margin-top: 10px;
+            margin-right: 20px;
+            img {
+              width: 41px;
+              height: 52px;
+            }
+          }
+        }
+        .lookgd {
+          float: right;
+          margin-right: 40px;
+          line-height: 36px;
+          font-size: 12px;
+          color: #888888;
+          cursor: pointer;
+        }
+      }
+    }
+    .xqtu {
+      width: $boxwidth;
+      line-height: 40px;
+      border: 1px solid #e1e1e1;
+      border-radius: 9px 9px 0 0;
+      margin-top: 10px;
+      span {
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+        transition: 0.8s;
+        columns: #888888;
+      }
+      .guige {
+        border-left: 1px solid #888888;
+      }
+      span:hover {
+        color: rgb(201, 187, 146);
+      }
+    }
+    .tablebox {
+      border: 1px solid #e1e1e1;
+      margin-top: 10px;
+      .table {
+        width: $boxwidth;
+        border: 1px solid #e1e1e1;
+        text-align: center;
+        border-collapse: collapse;
+        color: rgb(153, 134, 98);
+        tr {
+          border: 1px solid #e1e1e1;
+          width: 100%;
+        }
+        td {
+          padding-left: 10px;
+          border: 1px solid #e1e1e1;
+        }
+      }
+    }
+  }
+}

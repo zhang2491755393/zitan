@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+.breadcrumbsparent {
+  width: 100%;
+  line-height: 45px; }
+  .breadcrumbsparent .container {
+    width: 1206px;
+    margin: 0 auto; }
+    .breadcrumbsparent .container .containernav {
+      font-size: 12px;
+      overflow: hidden; }
+      .breadcrumbsparent .container .containernav li {
+        float: left;
+        margin-left: 5px;
+        transition: 1s;
+        cursor: pointer; }
+      .breadcrumbsparent .container .containernav .goodsn {
+        color: #c9a9a1; }
+      .breadcrumbsparent .container .containernav li:hover {
+        color: #c9a9a1; }
+    .breadcrumbsparent .container .fdjbox {
+      width: 100%;
+      height: 696px;
+      border: 1px #f1f1f1 solid;
+      border-radius: 10px;
+      position: relative; }
+      .breadcrumbsparent .container .fdjbox .dfjleft {
+        width: 840px;
+        height: 483px;
+        border-right: 1px #f1f1f1 solid;
+        border-bottom: 1px #f1f1f1 solid;
+        float: left; }
+        .breadcrumbsparent .container .fdjbox .dfjleft .bimg {
+          width: 400px;
+          height: 400px;
+          margin: 0 auto;
+          position: relative;
+          border: 1px solid #807b59; }
+          .breadcrumbsparent .container .fdjbox .dfjleft .bimg img {
+            width: 400px;
+            height: 400px; }
+          .breadcrumbsparent .container .fdjbox .dfjleft .bimg .shadow {
+            display: none;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(167, 165, 165, 0.299); }
+        .breadcrumbsparent .container .fdjbox .dfjleft .bigfdj {
+          display: none;
+          border: 1px solid #807b59;
+          position: absolute;
+          right: -36px;
+          top: 0;
+          z-index: 20;
+          width: 400px;
+          height: 400px;
+          overflow: hidden;
+          background-color: sandybrown; }
+          .breadcrumbsparent .container .fdjbox .dfjleft .bigfdj #bigimg {
+            width: 800px;
+            height: 800px;
+            position: absolute;
+            left: 0;
+            top: 0; }
+        .breadcrumbsparent .container .fdjbox .dfjleft .tunav {
+          overflow: hidden; }
+          .breadcrumbsparent .container .fdjbox .dfjleft .tunav li {
+            width: 208px;
+            height: 211px;
+            float: left;
+            border: 1px #f1f1f1 solid; }
+            .breadcrumbsparent .container .fdjbox .dfjleft .tunav li img {
+              width: 100%;
+              height: 100%; }
+      .breadcrumbsparent .container .fdjbox .googsinfo {
+        padding-left: 21px;
+        width: 338px;
+        overflow: hidden; }
+        .breadcrumbsparent .container .fdjbox .googsinfo h1 {
+          font-weight: normal;
+          line-height: 49px;
+          font-size: 29px;
+          margin-top: 46px; }
+        .breadcrumbsparent .container .fdjbox .googsinfo .miaos {
+          line-height: 30px;
+          font-size: 12px;
+          color: #998662; }
+        .breadcrumbsparent .container .fdjbox .googsinfo .xian {
+          width: 300px;
+          display: block;
+          margin-top: 12px;
+          border-top: 1px #eeeeee solid; }
+        .breadcrumbsparent .container .fdjbox .googsinfo .jiage1 {
+          line-height: 35px;
+          margin-top: 7px;
+          color: #807b59;
+          font-size: 12px;
+          position: relative; }
+          .breadcrumbsparent .container .fdjbox .googsinfo .jiage1 .jiage {
+            color: #e40911;
+            font-size: 22px; }
+          .breadcrumbsparent .container .fdjbox .googsinfo .jiage1 .tehui {
+            position: absolute;
+            right: 104px;
+            top: 0; }
+            .breadcrumbsparent .container .fdjbox .googsinfo .jiage1 .tehui img {
+              width: 64px;
+              height: 18px; }
+        .breadcrumbsparent .container .fdjbox .googsinfo .yuanjia1 {
+          line-height: 28px;
+          font-size: 12px;
+          color: #807b59;
+          text-decoration: line-through; }
+        .breadcrumbsparent .container .fdjbox .googsinfo .xiaoliang1 {
+          line-height: 31px;
+          font-size: 12px;
+          color: #807b59; }
+        .breadcrumbsparent .container .fdjbox .googsinfo .guigebox {
+          overflow: hidden; }
+          .breadcrumbsparent .container .fdjbox .googsinfo .guigebox .guigeleft {
+            display: block;
+            float: left;
+            height: 60px;
+            font-size: 12px;
+            color: #807b59;
+            padding-top: 22px; }
+          .breadcrumbsparent .container .fdjbox .googsinfo .guigebox .guigeUL {
+            float: right;
+            width: 286px; }
+            .breadcrumbsparent .container .fdjbox .googsinfo .guigebox .guigeUL li {
+              float: left;
+              width: 102px;
+              text-align: center;
+              border: 1px #888888 solid;
+              border-radius: 4px;
+              line-height: 24px;
+              margin-left: 8px;
+              margin-right: 8px;
+              margin-top: 11px;
+              transition: 0.4s;
+              color: #807b59;
+              cursor: pointer; }
+            .breadcrumbsparent .container .fdjbox .googsinfo .guigebox .guigeUL li:hover {
+              border: 1px orange solid; }
+            .breadcrumbsparent .container .fdjbox .googsinfo .guigebox .guigeUL li:checked {
+              border: 1px #d7474e solid; }
+        .breadcrumbsparent .container .fdjbox .googsinfo .shuliangbox {
+          width: 100%;
+          overflow: hidden; }
+          .breadcrumbsparent .container .fdjbox .googsinfo .shuliangbox .shuliang {
+            display: block;
+            float: left;
+            height: 60px;
+            font-size: 12px;
+            color: #807b59;
+            padding-top: 22px; }
+          .breadcrumbsparent .container .fdjbox .googsinfo .shuliangbox .reduce {
+            width: 32px;
+            height: 44px;
+            float: left;
+            text-align: center;
+            border: 1px solid #807b59;
+            border-radius: 3px;
+            margin-top: 21px;
+            font-size: 20px;
+            margin-left: 10px;
+            cursor: pointer; }
+          .breadcrumbsparent .container .fdjbox .googsinfo .shuliangbox #num {
+            float: left;
+            border: 1px solid #e1e1e1;
+            border-radius: 4px;
+            width: 76px;
+            height: 34px;
+            margin-top: 26px;
+            margin-left: 10px;
+            text-align: center; }
+          .breadcrumbsparent .container .fdjbox .googsinfo .shuliangbox .add {
+            width: 32px;
+            height: 44px;
+            float: left;
+            text-align: center;
+            border: 1px solid #807b59;
+            border-radius: 3px;
+            margin-top: 21px;
+            font-size: 20px;
+            margin-left: 10px;
+            cursor: pointer; }
+        .breadcrumbsparent .container .fdjbox .googsinfo .tip {
+          text-align: center;
+          line-height: 40px;
+          color: red;
+          font-size: 20px; }
+        .breadcrumbsparent .container .fdjbox .googsinfo .mmm {
+          width: 300px;
+          margin-top: 15px;
+          color: #fff; }
+          .breadcrumbsparent .container .fdjbox .googsinfo .mmm .ljgm {
+            display: inline-block;
+            line-height: 37px;
+            width: 139px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #e40911;
+            margin-right: 10px;
+            cursor: pointer; }
+          .breadcrumbsparent .container .fdjbox .googsinfo .mmm .jrgwc {
+            display: inline-block;
+            line-height: 37px;
+            width: 139px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #f19600;
+            cursor: pointer; }
+        .breadcrumbsparent .container .fdjbox .googsinfo .other {
+          overflow: hidden; }
+          .breadcrumbsparent .container .fdjbox .googsinfo .other li {
+            float: left;
+            width: 41px;
+            height: 52px;
+            margin-top: 10px;
+            margin-right: 20px; }
+            .breadcrumbsparent .container .fdjbox .googsinfo .other li img {
+              width: 41px;
+              height: 52px; }
+        .breadcrumbsparent .container .fdjbox .googsinfo .lookgd {
+          float: right;
+          margin-right: 40px;
+          line-height: 36px;
+          font-size: 12px;
+          color: #888888;
+          cursor: pointer; }
+    .breadcrumbsparent .container .xqtu {
+      width: 1206px;
+      line-height: 40px;
+      border: 1px solid #e1e1e1;
+      border-radius: 9px 9px 0 0;
+      margin-top: 10px; }
+      .breadcrumbsparent .container .xqtu span {
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+        transition: 0.8s;
+        columns: #888888; }
+      .breadcrumbsparent .container .xqtu .guige {
+        border-left: 1px solid #888888; }
+      .breadcrumbsparent .container .xqtu span:hover {
+        color: #c9bb92; }
+    .breadcrumbsparent .container .tablebox {
+      border: 1px solid #e1e1e1;
+      margin-top: 10px; }
+      .breadcrumbsparent .container .tablebox .table {
+        width: 1206px;
+        border: 1px solid #e1e1e1;
+        text-align: center;
+        border-collapse: collapse;
+        color: #998662; }
+        .breadcrumbsparent .container .tablebox .table tr {
+          border: 1px solid #e1e1e1;
+          width: 100%; }
+        .breadcrumbsparent .container .tablebox .table td {
+          padding-left: 10px;
+          border: 1px solid #e1e1e1; }
+
+/*# sourceMappingURL=xiangqing.css.map */

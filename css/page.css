@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.page {
+    height: 30px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.page span {
+    float: left;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.page span.disabled {
+    background-color: #cdcdcd;
+}
+
+.page .page-content {
+    float: left;
+    height: 30px;
+}
+
+.page-content li {
+    float: left;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 4px;
+    margin-right: 4px
+}
+
+.page-content li.selected {
+    background-color: rebeccapurple;
+
+}
+.page {
+    height: 30px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.page span {
+    float: left;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.page span.disabled {
+    background-color: #cdcdcd;
+}
+
+.page .page-content {
+    float: left;
+    height: 30px;
+}
+
+.page-content li {
+    float: left;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 4px;
+    margin-right: 4px
+}
+
+.page-content li.selected {
+    background-color:orange;
+}

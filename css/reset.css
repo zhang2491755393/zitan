@@ -1,0 +1,89 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,button,textarea{
+	padding: 0;
+	margin: 0;
+}
+input,textarea,button{
+	border: 0;
+}
+textarea{
+	resize:none;
+}
+input[type="button"],input[type="submit"],input[type="reset"],button{
+	cursor: pointer;
+}
+input:focus,button:focus,textarea:focus{
+	outline: none;
+}
+img{
+	vertical-align: top;
+	border: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	/*inherit继承父元素的属性值*/
+	color: inherit;
+}
+.cl:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.cl{
+	/*解决IE6、7的浮动问题*/
+	zoom: 1;
+}
+.w{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/**************** 单行超出省略 ********************/
+.el{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+
+
+.bd0{
+	border: 0;
+}
+.red{
+	color: red;
+}
+.center{
+	text-align: center;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+
+
+/*index.css*/
+/*user.css*/
+/*cart.css*/
+/*detail.css*/
+/*login.css*/
+
+
+
+
+/*css精灵图部分*/
+
+
+/*公共的头部*/
+
+
+
+/*公共的尾部*/

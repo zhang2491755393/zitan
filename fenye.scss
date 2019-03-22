@@ -1,0 +1,128 @@
+$mixwidth: 100%;
+$boxwidth: 1206px;
+$color: #f4f3f2;
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.proBox1 {
+  width: $mixwidth;
+  margin-top: 50px;
+  .proBox {
+    width: $boxwidth;
+    margin: 0 auto;
+    .xyzt {
+      font-weight: normal;
+      line-height: 58px;
+      font-size: 17px;
+      color: #595757;
+      padding-left: 22px;
+      border-bottom: 1px #ddd solid;
+    }
+    .fenleibox {
+      height: 80px;
+      span {
+        float: left;
+        padding-left: 22px;
+        padding-top: 20px;
+      }
+      .flnav {
+        float: left;
+        li {
+          float: left;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          width: 112px;
+          line-height: 27px;
+          text-align: center;
+          margin-top: 25px;
+          margin-left: 20px;
+        }
+        li.select {
+          border-color: red;
+        }
+      }
+    }
+    .ztright {
+        width: $boxwidth;
+      ul {
+        font-size: 14px;
+        line-height: 43px;
+        overflow: hidden;
+        li {
+          float: left;
+          margin-right: 5px;
+          cursor: pointer;
+          transition: 1s;
+          a {
+            padding-left: 5px;
+            padding-right: 5px;
+          }
+          .moren {
+            color: rgb(179, 28, 34);
+          }
+          .ordera {
+            padding-left: 10px;
+            border-left: 2px #cbd5e4 solid;
+          }
+        }
+        li:hover {
+          color: rgb(255, 136, 0);
+        }
+      }
+    }
+  }
+}
+.ztnav1{
+    width: $mixwidth;
+.ztnav{
+    background: #fff;
+    border-radius: 8px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: $boxwidth;
+    .ztUL{
+        li{
+            float: left;
+            width: 240px;
+            padding-top: 30px;
+           
+            width: 393px;
+            height:270px;
+            a{
+                transition: 1s;
+                span{
+                    display: block;
+                    margin: 0 auto;
+                    text-align: center;
+                    border: none;
+                    img{
+                        width: 380px;
+                        height: 190px;
+                        margin-bottom: 20px;
+                    }
+                }
+                .proCttTxt{
+                    width: 140px;
+                    margin: 0 auto;
+                    color: #595757;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: center;
+                }
+            }
+        }
+        a:hover span{
+            color:rgb(179, 28, 34);
+        }
+    }
+    
+}
+}

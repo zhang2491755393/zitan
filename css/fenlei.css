@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+.fenleibox {
+  background-color: #f4f3f2;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 23px; }
+  .fenleibox .fenlei {
+    width: 1206px;
+    margin: 0 auto;
+    border-radius: 7px; }
+    .fenleibox .fenlei .fenleiP {
+      line-height: 43px;
+      color: #595757;
+      font-size: 20px; }
+    .fenleibox .fenlei ul {
+      overflow: hidden; }
+      .fenleibox .fenlei ul li {
+        float: left;
+        border-right: 2px solid #f4f3f2;
+        border-bottom: 2px solid #f4f3f2;
+        width: 298px;
+        height: 100px;
+        background-color: #fff;
+        transition: 1s; }
+        .fenleibox .fenlei ul li a {
+          padding-top: 20px;
+          padding-bottom: 20px;
+          display: block; }
+          .fenleibox .fenlei ul li a img {
+            width: 125px;
+            height: 60px;
+            float: left; }
+          .fenleibox .fenlei ul li a p {
+            float: left;
+            text-align: left;
+            font-size: 18px;
+            color: #595757;
+            height: 60px;
+            line-height: 60px; }
+      .fenleibox .fenlei ul li:hover {
+        box-shadow: rgba(169, 169, 169, 0.279) 0px 0px 20px 2px inset; }
+
+.xyztbox {
+  background-color: #f4f3f2;
+  width: 100%;
+  overflow: hidden; }
+  .xyztbox .xyzt {
+    width: 1206px;
+    margin: 0 auto; }
+    .xyztbox .xyzt .xyzttop {
+      width: 1206px;
+      line-height: 43px;
+      color: #595757;
+      font-size: 17px;
+      overflow: hidden; }
+      .xyztbox .xyzt .xyzttop .ztp {
+        float: left;
+        cursor: pointer; }
+        .xyztbox .xyzt .xyzttop .ztp .zti {
+          display: inline-block;
+          margin-right: 5px; }
+      .xyztbox .xyzt .xyzttop .ztright {
+        float: right; }
+        .xyztbox .xyzt .xyzttop .ztright ul {
+          font-size: 14px;
+          line-height: 43px; }
+          .xyztbox .xyzt .xyzttop .ztright ul li {
+            float: left;
+            margin-right: 5px;
+            cursor: pointer;
+            transition: 1s; }
+            .xyztbox .xyzt .xyzttop .ztright ul li a {
+              padding-left: 5px;
+              padding-right: 5px; }
+            .xyztbox .xyzt .xyzttop .ztright ul li .moren {
+              color: #b31c22; }
+            .xyztbox .xyzt .xyzttop .ztright ul li .ordera {
+              padding-left: 10px;
+              border-left: 2px #cbd5e4 solid; }
+          .xyztbox .xyzt .xyzttop .ztright ul li:hover {
+            color: #ff8800; }
+    .xyztbox .xyzt .ztnav {
+      background: #fff;
+      border-radius: 8px;
+      padding-bottom: 30px;
+      overflow: hidden; }
+      .xyztbox .xyzt .ztnav .ztUL li {
+        float: left;
+        width: 240px;
+        padding-top: 30px; }
+        .xyztbox .xyzt .ztnav .ztUL li a {
+          transition: 1s; }
+          .xyztbox .xyzt .ztnav .ztUL li a span {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            border: none; }
+          .xyztbox .xyzt .ztnav .ztUL li a .proCttTxt {
+            width: 140px;
+            margin: 0 auto;
+            color: #595757;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center; }
+      .xyztbox .xyzt .ztnav .ztUL a:hover span {
+        color: #b31c22; }
+
+/*# sourceMappingURL=fenlei.css.map */

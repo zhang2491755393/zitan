@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+.proBox1 {
+  width: 100%;
+  margin-top: 50px; }
+  .proBox1 .proBox {
+    width: 1206px;
+    margin: 0 auto; }
+    .proBox1 .proBox .xyzt {
+      font-weight: normal;
+      line-height: 58px;
+      font-size: 17px;
+      color: #595757;
+      padding-left: 22px;
+      border-bottom: 1px #ddd solid; }
+    .proBox1 .proBox .fenleibox {
+      height: 80px; }
+      .proBox1 .proBox .fenleibox span {
+        float: left;
+        padding-left: 22px;
+        padding-top: 20px; }
+      .proBox1 .proBox .fenleibox .flnav {
+        float: left; }
+        .proBox1 .proBox .fenleibox .flnav li {
+          float: left;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          width: 112px;
+          line-height: 27px;
+          text-align: center;
+          margin-top: 25px;
+          margin-left: 20px; }
+        .proBox1 .proBox .fenleibox .flnav li.select {
+          border-color: red; }
+    .proBox1 .proBox .ztright {
+      width: 1206px; }
+      .proBox1 .proBox .ztright ul {
+        font-size: 14px;
+        line-height: 43px;
+        overflow: hidden; }
+        .proBox1 .proBox .ztright ul li {
+          float: left;
+          margin-right: 5px;
+          cursor: pointer;
+          transition: 1s; }
+          .proBox1 .proBox .ztright ul li a {
+            padding-left: 5px;
+            padding-right: 5px; }
+          .proBox1 .proBox .ztright ul li .moren {
+            color: #b31c22; }
+          .proBox1 .proBox .ztright ul li .ordera {
+            padding-left: 10px;
+            border-left: 2px #cbd5e4 solid; }
+        .proBox1 .proBox .ztright ul li:hover {
+          color: #ff8800; }
+
+.ztnav1 {
+  width: 100%; }
+  .ztnav1 .ztnav {
+    background: #fff;
+    border-radius: 8px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1206px; }
+    .ztnav1 .ztnav .ztUL li {
+      float: left;
+      width: 240px;
+      padding-top: 30px;
+      width: 393px;
+      height: 270px; }
+      .ztnav1 .ztnav .ztUL li a {
+        transition: 1s; }
+        .ztnav1 .ztnav .ztUL li a span {
+          display: block;
+          margin: 0 auto;
+          text-align: center;
+          border: none; }
+          .ztnav1 .ztnav .ztUL li a span img {
+            width: 380px;
+            height: 190px;
+            margin-bottom: 20px; }
+        .ztnav1 .ztnav .ztUL li a .proCttTxt {
+          width: 140px;
+          margin: 0 auto;
+          color: #595757;
+          font-size: 14px;
+          line-height: 22px;
+          text-align: center; }
+    .ztnav1 .ztnav .ztUL a:hover span {
+      color: #b31c22; }
+
+/*# sourceMappingURL=fenye.css.map */
